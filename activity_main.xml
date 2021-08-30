@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/gatewayarchImageView"
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:src="@drawable/gatewayarch" />
+
+    <TextView
+        android:id="@+id/gatewayarchTextView"
+        android:layout_width="300dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/string_name" />
+
+    <ImageView
+        android:id="@+id/laugavegurImageView"
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:src="@drawable/laugavegur" />
+
+    <TextView
+        android:id="@+id/laugavegurTextView"
+        android:layout_width="300dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/string_name1" />
+
+    <ImageView
+        android:id="@+id/wanakaImageView"
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:src="@drawable/wanakatree" />
+
+    <TextView
+        android:id="@+id/wanakaTextView"
+        android:layout_width="300dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/string_name2" />
+
+</LinearLayout>
